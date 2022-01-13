@@ -1,6 +1,4 @@
-package io.datajek.spring.basics.movierecommendersystem;
-
-import java.util.Set;
+package io.datajek.spring.basics.movierecommendersystem.lesson10;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
@@ -8,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class CollaborativeFilter implements Filter{
+public class CollaborativeFilter implements Filter {
 
     public CollaborativeFilter() {
         super();
